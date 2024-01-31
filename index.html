@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentine's Proposal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Hello Em Ơi!</h1>
+            <p class="pp" id="question">Em có muốn làm Valentine của Anh không?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Không</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Dạ</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>He, Em tuong Anh chấp nhận chừng nào Em nói không hả?</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YAY! Gặp Em ngày 14th, babygirl. Saranghae</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
